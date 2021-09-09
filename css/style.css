@@ -818,8 +818,15 @@ img.gif_banner {
     border: 1px solid #ced4da;
     width: 330px;
 }
+.sub_form input:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
 button.sub_submit {
-    padding: 12px 12px;
+    padding: 13px 12px;
     font-size: 16px;
     position: relative;
     top: -1px;
