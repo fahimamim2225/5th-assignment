@@ -979,3 +979,212 @@ img.dmny {
     text-align: center;
     padding: 20px;
 }
+
+
+
+
+
+
+
+/* =========================
+single book page
+=========================== */
+.book_details_area {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    background: #fff;
+    width: 1120px;
+    margin: auto;
+    border-radius: 3px;
+    box-shadow: 0px 4px 6px -3px #9c9c9c;
+    position: relative;
+}
+.single_bookdtls_box{
+    display: flex;
+}
+.sbdb_img {
+    border: 1px solid #cdcdcd;
+    margin-right: 24px;
+}
+.sbdb_heading {
+    margin-bottom: 10px;
+}
+.sbdb_heading h1 {
+    margin-top: 0;
+    font-family: "SiyamRupali", sans-serif;
+    font-weight: 300;
+    word-spacing: 3px;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.sbdb_heading span {
+    color: #666666;
+    font-size: 16px;
+}
+p.sbdbh_text {
+    font-size: 16px;
+    color: #666666;
+}
+p.sbdb_name {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+p.sbdb_name span {
+    color: #0397d3;
+    margin-left: 5px;
+}
+.sbdb_category {
+    margin-bottom: 20px;
+}
+.sbdb_category p {
+    font-weight: 700;
+}
+span.sbdbc_colorbg {
+    background: #ff9900;
+    display: inline-block;
+    color: #fff;
+    padding: 0 3px 0 8px;
+    border-radius: 2px;
+    line-height: 24px;
+    font-weight: 600;
+    position: relative;
+    margin-right: 11px;
+    margin-left: 2px;
+}
+span.sbdbc_colorbg::after {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 15px;
+    left: 100%;
+    margin-left: -2px;
+    height: 24px;
+    background: #ff9900;
+    clip-path: polygon(0 0, 100% 0%, 20% 100%, 0% 100%);
+}
+span.sbdbc_colorfont {
+    color: #0397d3;
+    font-weight: 400;
+    margin-left: 3px;
+}
+.sbdb_rating i {
+    color: #ff9900;
+    font-size: 12px;
+    margin-right: 2px;
+}
+.sbdb_rating a:hover{
+    color: #0397d3;
+}
+.sbdb_book_price {
+    margin-top: 15px;
+}
+.sbdb_book_price p {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    word-spacing: 3px;
+    margin-bottom: 13px;
+    text-transform: uppercase;
+}
+.sbdb_book_price strike {
+    color: #666666;
+}
+.sbdb_book_price span {
+    margin-left: 15px;
+    color: #666666;
+    font-weight: 400;
+    word-spacing: 0;
+}
+.sbdb_offerandstock p {
+    color: #33c24d;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+.sbdb_offerandstock i {
+    margin-right: 8px;
+}
+p.sbdb_stock i {
+    font-size: 17px;
+    color: #33c24d;
+}
+p.sbdb_stock {
+    color: #333333;
+}
+.sbdb_buttons {
+    margin-top: 20px;
+}
+.sbdbb_border {
+    margin-right: 15px;
+    padding: 15px 35px;
+    color: #33c24d;
+    border: 1px solid #33c24d;
+    border-radius: 2px;
+    box-shadow: 0px 3px 6px -4px #a2a2a2;
+    background: #fff;
+    font-family: "SiyamRupali", sans-serif;
+    font-weight: 400;
+}
+.sbdbb_border:hover {
+    color: #fff;
+    border: 1px solid #33c24d;
+    background: #33c24d;
+}
+.sbdbb_bgcolor {
+    font-size: 18px;
+    background: #ff9900;
+}
+.sbdbb_bgcolor i {
+    margin-right: 10px;
+}
+.sbdb_share {
+    margin-top: 20px;
+}
+.sbdb_share ul li {
+    float: left;
+    margin-right: 25px;
+    font-size: 17px;
+    color: #666666;
+    letter-spacing: .6px;
+}
+.sbdb_share ul li:hover {
+    color: #0397d3;
+}
+.sbdb_share i {
+    margin-right: 8px;
+}
+.sbdb_bgcolor{
+    background-color: #f1f2f4;
+}
+ul.sbdb_sidebar_top img {
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+    position: relative;
+    top: 8px;
+}
+ul.sbdb_sidebar_top li {
+    margin-bottom: 15px;
+    color: #666666;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+ul.sbdb_sidebar_top {
+    margin-bottom: 25px;
+}
+.sbdb_sidebar_bottom {
+    border-top: 1px solid #dee2e6;
+}
+.sbdb_sidebar_bottom h3 {
+    font-weight: 700;
+    font-size: 19px;
+}
+.sbdb_sidebar {
+    padding: 25px 51px 25px 24px;
+}
+.sbdb_padding {
+    padding: 22px 12px 22px 23px;
+}
