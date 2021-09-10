@@ -907,6 +907,18 @@ footer{
 }
 .footer_list ul li {
     margin-bottom: 5px;
+    position: relative;
+    margin-left: 20px;
+}
+.footer_list ul li::before {
+    position: absolute;
+    content: "";
+    border: 1px solid #000;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    top: 7px;
+    left: -15px;
 }
 .fb_page h3 {
     margin: 0;
